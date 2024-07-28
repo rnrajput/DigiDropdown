@@ -5,7 +5,6 @@ import SwiftUI
 struct  DigiDropdown: View {
     
     let options: [String]
-    
     var menuWdith: CGFloat  =  150
     var buttonHeight: CGFloat  =  50
     var maxItemDisplayed: Int  =  3
