@@ -1,11 +1,10 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-
+import SwiftUI
 struct  DigiDropdown: View {
     
     let options: [String]
-    
     var menuWdith: CGFloat  =  150
     var buttonHeight: CGFloat  =  50
     var maxItemDisplayed: Int  =  3
