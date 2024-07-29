@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 
 import SwiftUI
-struct  DigiDropdown: View {
+public struct  DigiDropdown: View {
     
     let options: [String]
     var menuWdith: CGFloat  =  150
@@ -11,10 +11,9 @@ struct  DigiDropdown: View {
     
     @Binding  var selectedOptionIndex: Int
     @Binding  var showDropdown: Bool
-    
     @State  private  var scrollPosition: Int?
     
-    var body: some  View {
+    public var body: some  View {
         
         VStack {
             
